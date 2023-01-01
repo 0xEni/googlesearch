@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="px-2 position-absolute top-0 end-0">
+            <a href="index.html">Search</a>
+            <a href="imageSearch.html">Image Search</a>
+        </div>
+        <div class="position-absolute top-50 start-50 translate-middle">
+        <h1>Google Advanced Search</h1>
+        <form action="https://google.com/search">
+            <div class="form-group row">
+                <label for="allTheseWords" class="col-sm-4 col-form-label">all these words:</label>
+                <div class="col-sm-8">
+                    <input class="rounded-pill form-control form-rounded" type="text" name="as_q">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="thisExactWord" class="col-sm-4 col-form-label">this exact word or phrase</label>
+                <div class="col-sm-8">
+                    <input class="rounded-pill form-control form-rounded" type="text" name="as_epq">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="anyTheseWorsd" class="col-sm-4 col-form-label">any of these words:</label>
+                <div class="col-sm-8">
+                    <input class="rounded-pill form-control form-rounded" type="text" name="as_oq">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="noneTheseWords" class="col-sm-4 col-form-label">none of these words:</label>
+                <div class="col-sm-8">
+                    <input class="rounded-pill form-control form-rounded" type="text" name="as_eq">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-6"></label>
+                <div class="col-sm-6">
+                    <input class="btn btn-primary rounded mt-2" type="submit" inputalign="bottom" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
